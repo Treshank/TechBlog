@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@ckeditor/ckeditor5-upload": "^24.0.0",
+    "bootstrap-icons": "^1.2.2"
+  }
+}
