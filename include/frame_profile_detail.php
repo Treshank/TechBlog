@@ -1,21 +1,25 @@
-
+<body  class="area"">
+<ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<div class="context">
 <div class="container">
-      <div class="row">
-
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
-
-
-          <div class="panel panel-default">
+          <div class="panel panel-default" style="float: none; margin: auto; margin-top: 100px">
             <div class="panel-heading">
               <h3 class="panel-title"> Profile </h3>
             </div>
             <div class="panel-body">
               <div class="row">
-                <div class="col-md-3 col-lg-3 " align="center">
-                  <img alt="User Pic" src="http://babyinfoforyou.com/wp-content/uploads/2014/10/avatar-300x300.png" class="img-circle img-responsive">
-                </div>
-
-                <div class=" col-md-9 col-lg-9 ">
+                  <div class=" col-md-9 col-lg-9 ">
                   <table class="table table-user-information">
                     <tbody>
                       <tr>
@@ -36,7 +40,7 @@
                     </tbody>
                   </table>
 
-                  <a href=<?php echo "../posts/post.php?user=".$_REQUEST['user']; ?> class="btn btn-default">My Posts</a>
+                  <a href=<?php echo "../posts/post.php?user=".$_REQUEST['user']; ?> class="btn btn-default lik">My Posts</a>
 
                 </div>
               </div>
@@ -54,3 +58,5 @@
         </div>
       </div>
   </div>
+</body>
+</div>

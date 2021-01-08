@@ -1,5 +1,5 @@
 <div class="col">
-    <div class="card" style="width: 350px; height: 400px">
+    <div class="card" style="width: 350px; height: 400px; color: var(--lg">
         <div class="card-body">
             <h3 class="card-title"><?php echo $title ?></h3>
             <h6 class="card-subtitle mb-2 text-muted"><?php echo $author ?></h6>

@@ -10,11 +10,8 @@
 
 <!-- POSTS -->
 
-<div class="container">
-		<div class="row">
-			<div class="col-md-9 col-md-offset-1">
-
-			<div class="panel panel-default">
+<div class="container context">
+			<div class="panel panel-default" style="width: 100%">
 				<!-- TITLE -->
 		  		<div class="panel-heading">
 		    		<h3 class="panel-title">

@@ -1,3 +1,18 @@
+
+<body  class="area">
+<ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<div class="my-con">
 <div class="posts card-group">
     <div class="row row-cols-2 row-cols-lg-auto gap-lg-5" style="margin: auto;">
         <?php
@@ -38,3 +53,5 @@
         </ul>
     </div>
 </div>
+</div>
+</body>

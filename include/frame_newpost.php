@@ -9,7 +9,20 @@
 	  	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 	  	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 </head>
-
+<body  class="area"">
+<ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<div class="context">
 <div class="container">
 	<div class="row">
 	<div class="panel panel-default">
@@ -76,3 +89,5 @@
 			</div>
 	</div>
 </div>
+</div
+</body>

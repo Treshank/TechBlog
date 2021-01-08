@@ -1,7 +1,7 @@
 <style media="screen">
 
 .bg {
-background:
+background: image('static/bg.jpg');
 background-repeat: no-repeat;
 background-position: top;
 background-size: contain;

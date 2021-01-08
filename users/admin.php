@@ -21,8 +21,20 @@ else {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-
+<body  class="area"">
+<ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<div class="context">
 <div class="container">
   <h2>Admin Panel</h2>
     <ul class="nav nav-tabs">
@@ -58,6 +70,7 @@ else {
 <!--        <div class="tab-pane fade" id="category" role="tabpanel" aria-labelledby="category-tab">--><?php
 //            include("../include/category.php");
 //            ?><!--</div>-->
+    </div>
     </div>
 </div>
 </body>

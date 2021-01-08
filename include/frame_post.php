@@ -3,7 +3,20 @@
 	include_once("algos.php");
 ?>
 <!-- POSTS -->
-
+<body  class="area">
+<ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<div class="my-con">
     <div class="panel panel-primary">
         <!-- TITLE -->
         <div class="panel-heading">
@@ -51,6 +64,7 @@
                 </span>
 
             <!-- likes -->
+            <span class="lik">
             <?php
             // determine if user has already liked this post
             if(isset($_SESSION['userid'])):
@@ -78,6 +92,7 @@
     <span class="likes_count"><?php echo $likes; ?> likes</span>
     <?php endif ?>
     <?php ?>
+            </span>
             <!-- time -->
             <span class="label label-default footer-element" style="text-decoration: none; color: white; float: left">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stopwatch-fill" viewBox="0 0 16 16">
@@ -143,3 +158,4 @@
             </ul>
         </div>
     </div>
+</body>

@@ -28,7 +28,7 @@ if(isset($_POST['submit'])) {
 		$_SESSION['userid']=$res['id'];
 		/* user type */
 		$detail=mysqli_fetch_assoc($result);
-		$_SESSION['usertype']=$detail['usertype'];
+		$_SESSION['usertype']=$res['usertype'];
 
 		/* Redirect to current / previous page*/
 		header('Location: ' . $_SERVER['HTTP_REFERER']);

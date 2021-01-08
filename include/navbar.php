@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: absolute; top:0; width: 100%;">
+<nav class="navbar navbar-expand-lg navbar-light bg-light context-nav" style="position: absolute; top:0; width: 100%;">
   <div class="container-fluid">
       <a class="navbar-brand" href="<?php echo $popular_posts_url; ?>"><h1>Tech Blog</h1></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
