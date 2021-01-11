@@ -10,7 +10,6 @@
 
 <!-- POSTS -->
 
-<div class="container context">
 			<div class="panel panel-default" style="width: 100%">
 				<!-- TITLE -->
 		  		<div class="panel-heading">
@@ -55,7 +54,3 @@
 
 			</div>
 				<!-- end of panel -->
-		</div>
-
-		</div>
-</div>

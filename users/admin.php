@@ -21,20 +21,19 @@ else {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body  class="area"">
-<ul class="circles">
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
-<div class="context">
+<!--<body  class="area"">-->
+<!--<ul class="circles">-->
+<!--    <li></li>-->
+<!--    <li></li>-->
+<!--    <li></li>-->
+<!--    <li></li>-->
+<!--    <li></li>-->
+<!--    <li></li>-->
+<!--    <li></li>-->
+<!--    <li></li>-->
+<!--    <li></li>-->
+<!--    <li></li>-->
+<!--</ul>-->
 <div class="container">
   <h2>Admin Panel</h2>
     <ul class="nav nav-tabs">
@@ -55,16 +54,16 @@ else {
 <!--        </li>-->
     </ul>
     <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="posts" role="tabpanel" aria-labelledby="posts">
+        <div class="tab-pane fade show active" id="posts">
             <?php include("../include/post_request.php"); ?>
         </div>
-        <div class="tab-pane fade" id="acc" role="tabpanel" aria-labelledby="acc-tab">
+        <div class="tab-pane fade" id="acc">
             <?php include("../include/account_request.php");?>
         </div>
-        <div class="tab-pane fade" id="user" role="tabpanel" aria-labelledby="user-tab">
+        <div class="tab-pane fade" id="user">
             <?php include("userlist.php");?>
         </div>
-        <div class="tab-pane fade" id="messages" role="tabpanel" aria-labelledby="messages-tab"><?php
+        <div class="tab-pane fade" id="messages"><?php
             include("../include/messages.php");
             ?></div>
 <!--        <div class="tab-pane fade" id="category" role="tabpanel" aria-labelledby="category-tab">--><?php
