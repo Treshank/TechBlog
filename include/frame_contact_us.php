@@ -51,6 +51,7 @@ if(isset($_POST['submit'])) {
     <li></li>
     <li></li>
 </ul>
+<div class="context">
 <div class="container">
     <div class="my-card" style="width: 500px">
         <h2>Tech Blog</h2>
@@ -111,6 +112,5 @@ if(isset($_POST['submit'])) {
       </form>
     </div>
 </div>
-</body>
 </div>
 </body>
