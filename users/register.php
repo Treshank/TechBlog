@@ -1,8 +1,8 @@
 <?php
 include("../include/url_users.php");
 require_once '../include/recaptcha.php';
-$site_key = '6LelmBsaAAAAAF9gh6CGs5rQL5cPdzdLm3gxBcnh';
-$secret_key = '6LelmBsaAAAAAAg-H5drR039HAzUliLDm0c81oXw';
+$site_key = '';
+$secret_key = '';
 $recaptcha = new Recaptcha('register_form', $site_key, $secret_key);
 
 
