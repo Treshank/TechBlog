@@ -27,10 +27,10 @@ if(isset($_POST['submit'])) {
 }
  ?>
 <head>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LelmBsaAAAAAF9gh6CGs5rQL5cPdzdLm3gxBcnh"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=[enter key here]"></script>
     <script>
         grecaptcha.ready(function () {
-            grecaptcha.execute('6LelmBsaAAAAAF9gh6CGs5rQL5cPdzdLm3gxBcnh', { action: 'contact_us' }).then(function (token) {
+            grecaptcha.execute('[enter key here]', { action: 'contact_us' }).then(function (token) {
                 var recaptchaResponse = document.getElementById('recaptchaResponse');
                 recaptchaResponse.value = token;
             });
@@ -91,7 +91,7 @@ if(isset($_POST['submit'])) {
 
                       // Build POST request:
                       $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-                      $recaptcha_secret = '6LelmBsaAAAAAAg-H5drR039HAzUliLDm0c81oXw';
+                      $recaptcha_secret = '';
                       $recaptcha_response = $_POST['recaptcha_response'];
 
                       // Make and decode POST request:
